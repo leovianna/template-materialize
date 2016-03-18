@@ -48,7 +48,7 @@ body{
 .parallax-container{
     height: 300px;
 }
-.habilidade{
+.servicos{
     height:100%;
     background-color:#006882;
 }
@@ -58,4 +58,7 @@ body{
 }
 .cardHabil h5,p{
     color:#ffffff;
+}
+.imgIcon1{
+    margin:0 auto;
 }
