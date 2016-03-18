@@ -30,7 +30,7 @@ body{
     height: 100%;
     background-color:#002b36;
 }
-.tituloSobre{
+.tituloSobre,.tituloHabil{
     margin:0px;
     padding-top:70px;
     color:#242526;
@@ -43,3 +43,7 @@ body{
     margin: 0 auto;
 }
 .perfil p {color:#fff;}
+.redesSociais{color:#fff;}
+.parallax-container{
+    height: 300px;
+}
