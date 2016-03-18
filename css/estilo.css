@@ -1,0 +1,25 @@
+body{
+    line-height: 25px;
+    font-size:16px;
+}
+.menuSite{
+    background-color: transparent;
+    box-shadow:0px 0px 0px transparent;-o-box-shadow:0px 0px 0px transparent;-moz-box-shadow:0px 0px 0px transparent;-webkit-box-shadow:0px 0px 0px transparent;
+}
+.home{
+    width: 100%;
+    background-image: url('../img/picjumbo.com_HNCK1218.png');
+    background-size: cover;
+}
+.logo{
+    margin-left:1em;
+}
+.side-nav li{
+    padding:0;
+}
+.tituloPg1{
+    color: #ffffff;
+    text-align:center;
+    margin-top:2em;
+    padding:0 15px;
+}
