@@ -32,7 +32,7 @@ body{
 }
 .tituloSobre,.tituloHabil{
     margin:0px;
-    padding-top:70px;
+    padding-top:75px;
     color:#242526;
     text-align:center;
     color:#fff;
@@ -46,4 +46,15 @@ body{
 .redesSociais{color:#fff;}
 .parallax-container{
     height: 300px;
+}
+.habilidade{
+    height:100%;
+    background-color:#006882;
+}
+.cardHabil{
+    width:100%;
+    height: 100%;
+}
+.cardHabil h5,p{
+    color:#ffffff;
 }
