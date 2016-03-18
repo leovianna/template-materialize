@@ -4,6 +4,9 @@
 $( document ).ready(function() {
     //Ativa o menu no mobile
     $(".button-collapse").sideNav();
+
+    //Inicializando Parallax
+    $('.parallax').parallax();
     var telaAlt = $( window ).height();
     // Aplica o tamanho da foto de acordo com a tela
     $('.home').css('height',telaAlt);
