@@ -3,7 +3,8 @@ body{
     font-size:16px;
 }
 .menuSite{
-    background-color: transparent;
+    background-color:#000;
+    background-color: rgba(0,0,0,0.3);
     box-shadow:0px 0px 0px transparent;-o-box-shadow:0px 0px 0px transparent;-moz-box-shadow:0px 0px 0px transparent;-webkit-box-shadow:0px 0px 0px transparent;
 }
 .home{
