@@ -59,6 +59,24 @@ body{
 .cardHabil h5,p{
     color:#ffffff;
 }
-.imgIcon1{
-    margin:0 auto;
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio{
+    background-color: #277082;
+    height: 100%;
+}
+.cardHabil,.cardPort{
+    margin-top:4em;
+}
+footer.page-footer {
+    margin-top: 0px; 
+    padding-top: 20px;
+    background-color: #002b36;
+}
+
+.mg1{
+    margin-top: 0.5em;
 }
