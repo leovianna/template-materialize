@@ -16,3 +16,11 @@ $( document ).ready(function() {
     var contentHomeAlt = telaAlt - menuAlt;
     $('.contentHome').css('height',contentHomeAlt);*/
 });
+
+$(document).ready(function(){
+  				 $('.ancora').click(function(){
+     			 var alvo = $(this).attr('href').split('#').pop();
+      		$('html, body').animate({scrollTop: $('#'+alvo).offset().top }, 1000);
+      		return false;
+        });
+		});

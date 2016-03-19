@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Materialize CSS </title>	
+<title>Materialize CSS </title>
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -13,14 +13,14 @@
     <section id="home" class="home">
         <header>
                 <div class="navbar-fixed">
-                    <nav class="menuSite" style="">
+                    <nav class="menuSite">
                         <div class="container-fluid">
                             <a href="#" class="brand-logo logo">John Doe</a>
                             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                             <ul class="right hide-on-med-and-down">
-                                <li><a href="index.html#sobre">QUEM SOU EU</a></li>
-                                <li><a>SERVIÇOS</a></li>
-                                <li><a>PORTFÓLIO</a></li>
+                                <li><a class="ancora" href="index.html#sobre">QUEM SOU EU</a></li>
+                                <li><a class="ancora" href="index.html#servicos">SERVIÇOS</a></li>
+                                <li><a class="ancora" href="index.html#portfolio">PORTFÓLIO</a></li>
                             </ul>
                             <ul class="side-nav" id="mobile-demo">
                                 <li><a href="index.html#sobre">QUEM SOU EU</a></li>
@@ -50,7 +50,17 @@
             </div>
             <div class="row linePerfil">
                 <div class="col s12 m12 l12">
-                    <h4 class="redesSociais center-align">REDES SOCIAIS AQUI</h4>
+                  <div class="container float-right">
+                      <div class="col s2">
+                        <img class="responsive-img img-center" src="img/facebook2.svg">
+                      </div>
+                      <div class="col s2">
+                        <img class="responsive-img img-center" src="img/linkedin.svg">
+                      </div>
+                      <div class="col s2">
+                        <img class="responsive-img img-center" src="img/twitter.svg">
+                      </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -252,12 +262,12 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright <a href="http://github.com/lucasktrindade" target="_blank">Lucas Trindade</a> e <a href="http://github.com/gabrielclima" target="_blank">Gabriel Lima</a>. Com carinho, pelo <a href="http://gdgduquedecaxias.github.io" target="_blank">GDG Duque de Caxias</a>.
+            © 2014 Copyright <a href="http://github.com/lucasktrindade" target="_blank">Lucas Trindade</a> ,<a href="http://github.com/igorfelipee" target="_blank">Igor Felipe</a> e <a href="http://github.com/gabrielclima" target="_blank">Gabriel Lima</a>. Com carinho, pelo <a href="http://gdgduquedecaxias.github.io" target="_blank">GDG Duque de Caxias</a>.
             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
         </footer>
-    
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 <script src="js/script.js"></script>
