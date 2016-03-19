@@ -1,0 +1,13 @@
+.titulo{
+    margin-left:1em;
+        }
+
+.pd1{
+    padding: 1em;
+    }
+
+.home{
+    background-image: url("../img/home.jpg");
+    background-size: cover;
+}
+    
